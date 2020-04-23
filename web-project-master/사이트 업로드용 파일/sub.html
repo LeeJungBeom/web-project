@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/registerpage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Press+Start+2P&family=Righteous&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <!-- 우편번호 찾기 -->
+    <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
+    <script src="js/registerpage.js"></script>
+    <script src="js/registerpage2.js"></script>
+    <script src="js/mainpage.js"></script>
+</head>
+
+    <div class="wrap">
+        <div class="header">
+            <div class="logo_wrap">
+                <!-- <img src="../web-project-master/img/logo_icon.png"  alt="로고이미지"> -->
+                <a id="logo" href="index.html">LOGO</a>
+
+                <div class="nav">
+                    <ul>
+                        <li class="menuitems"><a href="sub.html" class="menu">회원 가입</a></li>
+                        <li class="menuitems"><a href="#" id="sign" class="menu">로그인</a></li>
+                        <li class="menuitems"><a href="sub3.html" class="menu">과외 찾기</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        <div class="login">
+            <div class="login_box">
+            <input class="id" type="text" placeholder="아이디를 입력해주세요">
+            <input class="pw" type="text" placeholder="비밀번호를 입력해주세요">
+        </div>
+            
+        <div class="btn_box">
+            <input class="agree" value="로그인" type="button">
+            <input class="cancle" value="취소" type="button">
+        </div>
+    </div>
+           
+    </div>
+        
+        <div class="main">
+            <div class="register_box">
+    <form action="#" class="join">
+        <div class="sec">
+            <div class="title">이름</div>
+            <div class="content">
+                <input type="text" class="txt_area" placeholder="이름을 입력하시오">
+            </div>
+        </div>
+        <div class="sec">
+            <div class="title">아이디</div>
+            <div class="content">
+                <input type="text" class="txt_area2" placeholder="아이디를 입력하시오">
+                <input type="button" class="btn_area" value="중복검사">
+            </div>
+        </div>
+
+        <div class="sec">
+            <div class="title">비밀번호</div>
+            <div class="content">
+                <input type="text" class="text_area2" placeholder="비밀번호를 입력하시오">
+            </div>
+        </div>
+
+        <div class="sec">
+            <div class="title">비밀번호 확인</div>
+            <div class="content">
+                <input type="text" class="txt_area2" placeholder="비밀번호를 한번 더 입력">
+            </div>
+        </div>
+
+        <div class="sec">
+            <div class="title">이메일</div>
+            <div class="content email_box">
+                <input type="text" class="email_id">
+                <span>@</span>
+                <input type="text" class="email_type" placeholder="직접입력">
+
+                <select name="email" id="" class="sel_email">
+                    <option value=0>직접입력</option>
+                    <option value="naver">naver.com</option>
+                    <option value="hanmail">hanmail.net</option>
+                    <option value="gmail">gmail.com</option>
+                    <option value="daum">daum.net</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="sec">
+            <div class="title">주소</div>
+            <div class="content">
+                <input type="text" id="sample4_postcode" placeholder="우편번호">
+                <input type="button" onclick="sample4_execDaumPostcode()" value="우편번호 찾기" id="post_search"><br>
+                <input type="text" id="sample4_roadAddress" placeholder="도로명주소">
+                <input type="text" id="sample4_jibunAddress" placeholder="지번주소">
+                <span id="guide" style="color:#999;display:none"></span>
+                <input type="text" id="sample4_detailAddress" placeholder="상세주소">
+                <input type="text" id="sample4_extraAddress" placeholder="참고항목">
+            </div>
+        </form>
+    </div>
+
+    <div class="term_box">
+    <div class="term">
+
+        <strong class="member"><br>회원 약관</br></strong>
+        <strong>면책.</strong><br> 회원은 제3자가 회원의 행위나 회원의 이 애플리케이션의 사용 그리고 이 개인정보보호 정책과 사용 조건, 관련 법률과 규정의 위반과 직간접적으로 관련하여 제기하는 클레임으로부터 회사나 그 모회사, 자회사, 책임자, 임원, 주주, 에이전트, 직원을 면책시키고 피해가 없도록 해야 합니다. 회사는 회원의 면책 의무를 근거로 관련 사안의 방어와 통제를 회사의 비용으로 떠맡을 수 있는 권리를 보유하지만, 그렇게 하는 것이 회원의 면책 의무를 면제해 주는 것은 아닙니다.
+        <strong><br>책임 제한.</strong><br> 회사는 이 애플리케이션의 사용 또는 부정 사용에 대해 회원이나 애플리케이션 사용자에게 책임을 지지 않습니다. 이러한 책임 제한은 (가) 그런 클레임이 보증, 계약, 불법행위 또는 그 밖의 어떤 원인을 근거로 하든, (회사가 그런 피해의 가능성을 고지 받았다 하더라도) 직접, 간접, 우연, 부수적, 특별, 예시, 징벌적 피해를 포함하며 (나) 이 애플리케이션의 사용 또는 부정 사용, 신뢰 또는 이 애플리케이션의 중단, 중지, 종료로부터 피해가 발생한 경우(제3자가 야기한 피해 포함)에도 적용되며 (다) 제한된 치유책의 본질적인 목적의 실패에도 불구하고 법이 허용하는 최대 범위에서 적용됩니다. 그리고, 회원은 결과적인 손실 이윤, 특별, 간접, 부수적 손해를 회사로부터 회복하려고 하지 않습니다. 어떤 지역은 손해의 제외나 보증의 부인을 허용하지 않으므로 그런 제외와 부인은 회원에게 적용되지 않을 수도 있습니다.
+    </div>
+    
+</div>
+
+<div class="checkbox">
+    <div class="agree">
+<label><button name="btn1" value="동의" class="btn1">동의</button></label>
+</div>
+
+<div class="disagree">
+<label><button button onclick="location.href = 'index.html'" name="btn2" value="동의하지않음" class="btn2" >동의하지않음</button></label>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer">footer
+
+    <div class="terms">
+        <a class="terms_p" href="sub2.html">이용 약관안내</a>
+    </div>
+
+</div>
+</div>
+
+
+
+</body>
+</html>

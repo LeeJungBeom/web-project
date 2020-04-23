@@ -1,0 +1,311 @@
+*{
+    margin:0;
+    /* border:1px solid black !important; */
+    background:#e4f4ff1a;
+    user-select: none;
+    
+}
+
+ul{
+    list-style-type: none;
+    color:#000;
+    text-decoration: none;
+}
+
+
+
+
+.lSpg{
+    display:none;
+}
+
+.wrap{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+.header{
+    width:auto;
+    height:auto;
+}
+
+.logo_wrap{
+   padding:0 250px;
+}
+
+#logo{
+    width:auto;
+    height:auto;
+    text-decoration: none;
+    color:rgb(75, 221, 221);
+    /* font-weight: bold; */
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    position:relative;
+    top:80px;
+    left:-5%;
+}
+
+#logo:hover{
+    color:rgb(236, 157, 112);
+}
+
+.nav{
+    position:relative;
+    height:auto;
+    /* text-align: center; */
+    top:30%;
+    left:35%;
+}
+
+.menuitems{
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    padding:40px;
+    display:inline-block;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.menu{
+    text-decoration: none;
+    color:#000;
+}
+
+.menu:hover{
+    color:rgb(65,175,175)
+}
+
+
+.login{
+    border:1px solid grey;
+    width:350px;
+    height:400px;
+    text-align: center;
+    position:fixed;
+    left:40%;
+    display:none;
+}
+.login_box{
+    position:absolute;
+    top:35%;
+}
+
+.id{
+    font-size: 25px;
+}
+
+.pw{
+    font-size: 25px;
+}
+
+.btn_box{
+    line-height: 80px;
+    position:absolute;
+    left:24%;
+    top:60%;
+
+}
+
+.agree{
+    font-size: 25px;
+    height:40px;
+}
+
+.cancle{
+    font-size: 25px;
+    height:40px;
+}
+
+
+ul > .slide{
+    list-style: none;
+}
+
+.search{
+    width:500px;
+    height:100px;
+    position:relative;
+    left:40%;
+    top: -100px;
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+.search_bar{
+    width:auto;
+    height:50px;
+    background:rgb(241, 253, 255);
+    font-size: 20px;
+    box-sizing: border-box;
+    float: left;
+    
+    
+}
+
+.search_box{
+    width:180px;
+    height:50px;
+
+    background:rgba(65,175,175);
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Sunflower', sans-serif;
+    /* font-weight: bold; */
+    box-sizing: border-box;
+    position:absolute;
+    left:50%;
+}
+
+.search_box:hover{
+    background:rgba(65,175,175,0.8);
+    color:#000;
+}
+
+.main{
+    width:auto;
+    height:1500px;
+}
+
+.m_search{
+    text-align: center;
+}
+
+.m_s_bar{
+    font-size: 25px;
+    height:30px;
+}
+.m_s{
+    font-size: 20px;
+    height:35px;
+}
+
+.img_box{
+    width: 100%;
+    height: 554px; 
+    position: relative;
+    overflow: hidden;
+    /* display:flex; */
+    left:0;
+}
+
+.icon_box{
+    width:auto;
+    height:auto;
+    text-align: center;
+}
+
+#search_b{
+    width:auto;
+    height:auto;
+    float: left;
+    position: relative;
+    top:25%;
+    left:10%;
+
+
+}
+
+
+#slide{
+    width:475px;
+    height:auto;
+    float:right;
+    position: relative;
+    left:-15%;
+    top:20%;
+    overflow: hidden; 
+    
+}
+
+
+
+/* #slide1{
+    position:absolute;
+    left:0;
+    top:0;
+
+}
+
+#slide2{
+    position: absolute;
+    left:50%;
+    top:0;
+} */
+
+
+
+.main_search{
+    width:auto;
+    height:400px;
+}
+
+
+
+
+.sj{
+    text-decoration: none;
+    color:#000;
+    
+}
+
+.s_img:hover{
+    transform: rotate(15deg)  scale(1.1);
+}
+
+.main::after{
+    content: ''; 
+    display: table;
+     clear: both;
+
+}
+
+.go_to_top{
+    width:70px;
+    height:50px;
+    position:fixed;
+    background:rgba(65,175,175,0.8);
+    top:90%;
+    left:94%;
+    border-radius: 30%;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    font-size: 25px;    
+
+}
+
+.footer{
+    width:100%;
+    height:300px;
+    text-align: center;
+    background:rgb(241, 254, 255);
+    /* padding:190px 0 0 0; */
+
+}
+
+.footer_i{
+    color:#000;
+    text-decoration: none;
+    font-size: 50px;
+    
+}
+
+.terms{
+    padding:50px;
+}
+
+.terms_p{
+    text-decoration: none;
+    text-align: center;
+    color:#000;
+    font-size: 20px;
+    
+}

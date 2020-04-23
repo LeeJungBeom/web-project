@@ -1,0 +1,261 @@
+
+*{
+    margin:0;
+    /* border:1px solid grey; */
+    background:#e4f4ff1a;
+     user-select: none;}
+
+.wrap{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+}
+
+
+.header{
+    width:auto;
+    height:auto;
+}
+
+.logo_wrap{
+   padding:0 250px;
+}
+
+#logo{
+    width:auto;
+    height:auto;
+    text-decoration: none;
+    color:rgb(75, 221, 221);
+    /* font-weight: bold; */
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    position:relative;
+    top:80px;
+    left:-5%;
+}
+
+#logo:hover{
+    color:rgb(236, 157, 112);
+}
+
+.nav{
+    position:relative;
+    height:auto;
+    /* text-align: center; */
+    top:30%;
+    left:35%;
+}
+
+.menuitems{
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    padding:40px;
+    display:inline-block;
+    font-family: 'Sunflower', sans-serif;
+}
+
+.menu{
+    text-decoration: none;
+    color:#000;
+}
+
+.menu:hover{
+    color:rgb(65,175,175)
+}
+
+
+.login{
+    border:1px solid grey;
+    width:350px;
+    height:400px;
+    text-align: center;
+    position:fixed;
+    left:40%;
+    display:none;
+}
+.login_box{
+    position:absolute;
+    top:35%;
+}
+
+.id{
+    font-size: 25px;
+}
+
+.pw{
+    font-size: 25px;
+}
+
+.btn_box{
+    line-height: 80px;
+    position:absolute;
+    left:24%;
+    top:60%;
+
+}
+
+.agree{
+    font-size: 25px;
+    height:40px;
+}
+
+.cancle{
+    font-size: 25px;
+    height:40px;
+}
+
+.menu:hover{
+    color:rgb(65,175,175)
+}
+
+.main{
+    width:100%;
+    height:auto;
+    text-align: center;
+    line-height: 90px;
+    padding:150px 0 0 0;
+}
+
+.register_box{
+    width:980px;
+    margin-left:calc((100% - 50px) / 4);
+}
+
+.title{
+    font-size: 25px;
+}
+
+.txt_area{
+    font-size: 20px;
+    height:25px;
+}
+.txt_area2{
+    font-size: 20px;
+    height:25px;
+}
+
+.text_area2{
+    font-size: 20px;
+    height:25px;
+}
+
+.email_id{
+    font-size: 20px;
+    height:25px;
+}
+
+.email_type{
+    font-size: 20px;
+    height:25px;
+}
+
+.sel_email{
+    font-size: 20px;
+    height:35px;
+}
+
+.btn_area{
+    font-size: 20px;
+
+}
+
+#sample4_postcode{
+    font-size:20px;
+    height:25px;
+}
+
+#post_search{
+    font-size: 20px;
+    height:35px;
+    cursor: pointer;
+}
+
+#sample4_roadAddress{
+    font-size: 20px;
+    height:25px;
+}
+
+#sample4_jibunAddress{
+    font-size: 20px;
+    height:25px;
+}
+
+#sample4_detailAddress{
+    font-size: 20px;
+    height:25px;
+}
+
+#sample4_extraAddress{
+    font-size: 20px;
+    height:25px;
+}
+
+.join{
+    line-height: 160px;
+}
+
+.term_box{
+
+    /* margin-left: calc((100% - 100px) / 25); */
+
+    height:350px;
+    text-align: center;
+    overflow: auto;
+    background:rgb(194, 235, 222);
+    
+}
+
+.member{
+
+    font-size: 30px;
+}
+
+.term{
+
+    height:auto;
+    line-height: 60px;
+    letter-spacing: 5px;
+    
+    
+}
+
+.checkbox{
+    display:flex;
+}
+
+.btn1{
+    font-size: 20px;
+    height:35px;
+    font-weight: bold;
+}
+
+.btn2{
+    font-size: 20px;
+    height:35px;
+    font-weight: bold;
+}
+
+.disagree{
+    padding: 0 80px;
+    
+}
+
+
+.footer{
+    width:100%;
+    height:250px;
+    text-align: center;
+}
+
+.terms{
+    padding:50px;
+}
+
+.terms_p{
+    text-decoration: none;
+    text-align: center;
+    color:#000;
+    font-size: 20px;
+}
